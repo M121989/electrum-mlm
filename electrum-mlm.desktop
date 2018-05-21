@@ -1,0 +1,21 @@
+# If you want Electrum to appear in a Linux app launcher ("start menu"), install this by doing:
+# sudo desktop-file-install electrum.desktop
+
+[Desktop Entry]
+Comment=Lightweight Mktcoin Client
+Exec=sh -c "PATH=\"\\$HOME/.local/bin:\\$PATH\" electrum %u"
+GenericName[en_US]=Mktcoin Wallet
+GenericName=Mktcoin Wallet
+Icon=electrum
+Name[en_US]=Electrum Mktcoin Wallet
+Name=Electrum Mktcoin Wallet
+Categories=Finance;Network;
+StartupNotify=false
+Terminal=false
+Type=Application
+MimeType=x-scheme-handler/mktcoin;
+Actions=Testnet;
+
+[Desktop Action Testnet]
+Exec=sh -c "PATH=\"\\$HOME/.local/bin:\\$PATH\" electrum --testnet %u"
+Name=Testnet mode

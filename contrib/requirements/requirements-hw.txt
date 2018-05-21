@@ -1,0 +1,4 @@
+Cython>=0.27
+rlp==0.6.0
+websocket-client
+hidapi

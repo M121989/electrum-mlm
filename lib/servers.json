@@ -1,0 +1,38 @@
+{
+    "electrum.mkt-coin.com": {
+        "pruning": "-",
+        "t": "50001",
+        "s": "50002",
+        "version": "1.2"
+    },
+    "electrum2.mkt-coin.com": {
+        "pruning": "-",
+        "t": "50001",
+        "s": "50002",
+        "version": "1.2"
+    },
+    "electrum3.mkt-coin.com": {
+        "pruning": "-",
+        "t": "50001",
+        "s": "50002",
+        "version": "1.2"
+    },
+    "electrum4.mkt-coin.com": {
+        "pruning": "-",
+        "t": "50001",
+        "s": "50002",
+        "version": "1.2"
+    },
+    "electrum5.mkt-coin.com": {
+        "pruning": "-",
+        "t": "50001",
+        "s": "50002",
+        "version": "1.2"
+    },
+    "electrum6.mkt-coin.com": {
+        "pruning": "-",
+        "t": "50001",
+        "s": "50002",
+        "version": "1.2"
+    }
+}
